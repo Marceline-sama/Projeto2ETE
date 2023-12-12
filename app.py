@@ -150,6 +150,8 @@ def aeradores():
     except Exception as e:
         flash(f"Erro ao obter dados para aeradores: {str(e)}", 'erro')
         return render_template('aeradores.html')
+    
+
 
 if _name_ == '_main_':
-    app.run(debug=True
+    app.run(debug=True)
